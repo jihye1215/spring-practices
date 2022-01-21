@@ -28,7 +28,7 @@ public class GuestbookController {
 	@RequestMapping(value = "/add", method = RequestMethod.POST)
 	public String add(GuestbookVo vo) {
 		guestbookRepository.insert(vo);
-		return "redirect:/"; 
+		return "redirect:/";
 	}
 	
 	@RequestMapping("/deleteform/{no}")
