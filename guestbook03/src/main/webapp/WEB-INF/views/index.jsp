@@ -34,7 +34,7 @@
 		<tr>
 			<td colspan = 4>${vo.getMessage()}</td>
 		</tr>
-		<td><a href="${pageContext.request.contextPath }/deleteform/${vo.getNo()}">삭제</a></td>
+		<td><a href="${pageContext.request.contextPath}/guestbook/deleteform/${vo.getNo()}">삭제</a></td>
 	</table>
 	</c:forEach>
 </body>
